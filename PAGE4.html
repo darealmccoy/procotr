@@ -47,6 +47,14 @@
 	a  {
 		
 }
+	.clock {
+			color: #FF0000;
+			font-size: 60px;
+			letter-spacing: 7px;
+}
+	.center {
+			text-align: center;
+}
 </style>
 	<link 
 		rel="icon" 
@@ -60,7 +68,12 @@
 		<h1>
 			Roobots
 		</h1>
-		
+		<div class="row">
+			<div class="column">
+				<div id="ClockDisplay" class="clock"></div>
+			</div>
+			<div class="column">
+				
 <script>
 monthnames = new Array(
 "January",
@@ -165,6 +178,37 @@ document.write("<tr>");
 startspaces=0;
 }
 document.write("</table></p>");
+</script>
+</div>				
+<script>	
+		function showTime(){
+		var date = new Date();
+		var h = date.getHours(); 
+		var m = date.getMinutes(); 
+		var s = date.getSeconds(); 
+		var session = "AM";
+    
+		if(h == 0){
+        h = 12;
+		}
+    
+		if(h > 12){
+			h = h - 12;
+			session = "PM";
+		}
+    
+		h = (h < 10) ? "0" + h : h;
+		m = (m < 10) ? "0" + m : m;
+		s = (s < 10) ? "0" + s : s;
+    
+		var time = h + ":" + m + ":" + s + " " + session;
+		document.getElementById("ClockDisplay").innerText = time;
+		document.getElementById("ClockDisplay").textContent = time;
+    
+		setTimeout(showTime, 1000);
+    
+		}
+		showTime();
 </script>
 </body>
 </HTML>
