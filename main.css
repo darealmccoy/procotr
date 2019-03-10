@@ -9,12 +9,43 @@ body {
 	text-align: center-left;
 			
 }
-	.paraleft {
+
+h1 {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-weight: bolder;
+	font-style: normal;
+	color: maroon;
+	font-size: 96px;
+	text-align: center;
+	background-image: url("https://media.istockphoto.com/vectors/horizontal-banner-camouflage-seamless-pattern-background-classic-vector-id846506400?k=6&m=846506400&s=612x612&w=0&h=xhUKR2FohWtKMWxGBbBBCwI6o_mNzCvCFc-wJPhQjCw=");
+}
+
+.paraleft {
 		text-align: left;
 }
-	.column {
+.column25 {
 		float: left;
 		width: 25%;
+		text-align: center;
+}
+.column33 {
+		float: left;
+		width: 33%;
+		text-align: center;
+}
+.column50 {
+		float: left;
+		width: 50%;
+		text-align: center;
+}
+.column66 {
+		float: left;
+		width: 66%;
+		text-align: center;
+}
+.column75 {
+		float: left;
+		width: 75%;
 		text-align: center;
 }
 	.row:after {
@@ -25,20 +56,15 @@ body {
 	img.resize {
 		width: 222px;
 		height: 296px;
+		max-width: 33%;
+		max-height: auto;
 }
 	img.resize2 {
 		width: 296px;
-		height: 296px;
-}
-	h1 {
-			color: #B22222;
-			font-size: 72px;
-			background-image: url("https://media.istockphoto.com/vectors/horizontal-banner-camouflage-seamless-pattern-background-classic-vector-id846506400?k=6&m=846506400&s=612x612&w=0&h=xhUKR2FohWtKMWxGBbBBCwI6o_mNzCvCFc-wJPhQjCw=");
+		height: auto;
 }
 	a  {
 		color: #B22222;
-		background-color: "000000"
+		background-color: "000000";
 		text-align: right;
-	a  {
-		
-}
+		underline:none;
