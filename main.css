@@ -19,7 +19,9 @@ h1 {
 	text-align: center;
 	background-image: url("https://media.istockphoto.com/vectors/horizontal-banner-camouflage-seamless-pattern-background-classic-vector-id846506400?k=6&m=846506400&s=612x612&w=0&h=xhUKR2FohWtKMWxGBbBBCwI6o_mNzCvCFc-wJPhQjCw=");
 }
-
+.center {
+		text-align: center;
+}
 .paraleft {
 		text-align: left;
 }
@@ -38,6 +40,7 @@ h1 {
 		float: left;
 		width: 33%;
 		text-align: center;
+		
 }
 .column50 {
 		float: left;
