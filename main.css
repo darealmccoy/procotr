@@ -17,10 +17,14 @@ h1 {
 	color: maroon;
 	font-size: 96px;
 	text-align: center;
-	background-image: url("https://media.istockphoto.com/vectors/horizontal-banner-camouflage-seamless-pattern-background-classic-vector-id846506400?k=6&m=846506400&s=612x612&w=0&h=xhUKR2FohWtKMWxGBbBBCwI6o_mNzCvCFc-wJPhQjCw=");
 }
+ul {
+	list-style: none;
+	padding: 0;
+}	
 .center {
-		text-align: center;
+		align: center;
+		
 }
 .paraleft {
 		text-align: left;
@@ -57,11 +61,6 @@ h1 {
 		width: 75%;
 		text-align: center;
 }
-.tabs {
-		postion: fixed;
-		top: 0;
-		right: 0;
-}
 .row > li {
 		list-style: none;
 } 
@@ -80,13 +79,20 @@ img.resize2 {
 		width: 296px;
 		height: auto;
 }
-a  {
-		color: #B22222;
-		background-color: "000000";
-		text-align: right;
-		underline:none;
+a:link, a:visited {
+  background-color: maroon;
+  color: gainsboro;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: gainsboro;
+  color: maroon;
 }
 
 .resume {
-		back-ground-color: "000000:;
+		back-ground-color: white;
 }
