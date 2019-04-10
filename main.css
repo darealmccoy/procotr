@@ -63,7 +63,7 @@ img.resize {
 		width: 222px;
 		height: 296px;
 		max-width: 33%;
-		max-height: auto;
+		max-height: 33%;
 }
 img.resize2 {
 		width: 296px;
@@ -77,7 +77,7 @@ img.resize2 {
 		color: maroon;
 }
 #resume p, ul{
-		back-ground-color: white;	
+		background-color: white;	
 		padding: 5px;
 }
 #MB img{
@@ -93,7 +93,7 @@ img.resize2 {
 .EAGLE {
 	max-width: 80%;
 	width: 256px;
-	max-height: auto;
+	max-height: 80%;
 	height: 165px;
 }
 .BADGE {
